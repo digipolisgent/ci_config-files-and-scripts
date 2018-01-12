@@ -78,3 +78,5 @@ exclude_patterns:
 - "**/vendor/**/*"
 - "**/.idea/**/*"
 - "**/tests/**/*"
+- "**/*.settings.php"
+- "RoboFile.php"
