@@ -34,6 +34,6 @@
   </rule>
   <!-- Unused code rules are not Drupal standard, but are good rules. The thresholds can be tweaked. -->
   <rule ref="rulesets/unusedcode.xml">
-    <exclude name="UnusedLocalVariable"/>
+    <exclude name="UnusedFormalParameter"/>
   </rule>
 </ruleset>
