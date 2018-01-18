@@ -24,7 +24,7 @@ plugins:
 
 exclude_patterns:
 - "**/.idea/**/*"
-- "**/tests/**/*"
+- "**/test/**/*"
 - "**/.vagrant/**/*"
 - "**/.kitchen/**/*"
 - "/cookbooks"
