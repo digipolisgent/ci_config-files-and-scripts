@@ -21,6 +21,8 @@ plugins:
       # See https://github.com/markdownlint/markdownlint/blob/master/docs/RULES.md
       MD024:
         enabled: false
+    issue_override:
+      severity: minor
 
 exclude_patterns:
 - ".github"
