@@ -1,0 +1,24 @@
+---
+driver:
+  name: vagrant
+  customize:
+    memory: 1024
+
+provisioner:
+  name: chef_zero
+  deprecations_as_errors: true
+
+platforms:
+  - name: centos-7
+    driver:
+      box: bento/centos-7.4
+    provisioner:
+      product_name: chef
+      product_version: '13.4.24'
+
+suites:
+  - name: default
+    run_list:
+      - recipe[cookbook::default]
+    verifier:
+    attributes:
