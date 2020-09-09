@@ -1,0 +1,16 @@
+{
+    "name": "gent/ci",
+    "description": "Provide scripts and configuration for continuous integration.",
+    "keywords": ["gent", "ci"],
+    "homepage": "https://github.com/digipolisgent/ci_config-files-and-scripts",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Maarten Segers",
+            "email": "maarten.segers@digipolis.gent"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
